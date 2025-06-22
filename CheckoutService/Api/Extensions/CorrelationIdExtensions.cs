@@ -11,10 +11,11 @@ public static class CorrelationIdExtensions
         
         services.AddDefaultCorrelationId(options =>
         {
-            options.EnforceHeader = true;
+            options.EnforceHeader = false;
             options.RequestHeader = CorrelationIdHeaderName;
             options.ResponseHeader = CorrelationIdHeaderName;
             options.IncludeInResponse = true;
+            options.CorrelationIdGenerator = () => Guid.NewGuid().ToString();
             // options.IgnoreRequestHeader = true;
             // options.LoggingScopeKey = "correlation-id";
             // options.UpdateTraceIdentifier = true;

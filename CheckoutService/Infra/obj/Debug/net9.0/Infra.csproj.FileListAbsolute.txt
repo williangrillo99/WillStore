@@ -8,6 +8,7 @@
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.AssemblyInfoInputs.cache
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.AssemblyInfo.cs
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.csproj.CoreCompileInputs.cache
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.sourcelink.json
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.csproj.Up2Date
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.dll
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/refint/Infra.dll

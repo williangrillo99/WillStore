@@ -15,13 +15,8 @@ public sealed class PedidosController : ControllerBase
 
     [HttpGet("Recuperar/{pedidoId}")]
     public ActionResult<string> Get(string pedidoId)
-    {    
-        _logger.LogInformation(
-            "PedidoService: {class}-{method}-{usuarioId}",
-            nameof(PedidosController),
-            nameof(Get),
-            pedidoId);
-        
-        return Ok(Convert.ToInt32(pedidoId));
+    {
+        // _logger.LogInformation("{service} - Pedido Solicitado: {pedidoId}", "PedidosService", pedidoId);
+        return Ok(pedidoId);
     }
 }

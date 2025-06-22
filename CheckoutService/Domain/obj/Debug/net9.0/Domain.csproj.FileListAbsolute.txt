@@ -5,6 +5,7 @@
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Domain/obj/Debug/net9.0/Domain.csproj.CoreCompileInputs.cache
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Domain/obj/Debug/net9.0/Domain.sourcelink.json
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Domain/obj/Debug/net9.0/Domain.dll
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Domain/obj/Debug/net9.0/refint/Domain.dll
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Domain/obj/Debug/net9.0/Domain.pdb
