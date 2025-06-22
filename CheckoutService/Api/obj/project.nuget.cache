@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bwRT3MIUg3Q=",
+  "dgSpecHash": "ot16GVXAN04=",
   "success": true,
   "projectFilePath": "/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/Api.csproj",
   "expectedPackageFiles": [
@@ -18,12 +18,14 @@
     "/Users/williangrillo/.nuget/packages/microsoft.extensions.http/8.0.1/microsoft.extensions.http.8.0.1.nupkg.sha512",
     "/Users/williangrillo/.nuget/packages/microsoft.extensions.logging/8.0.1/microsoft.extensions.logging.8.0.1.nupkg.sha512",
     "/Users/williangrillo/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/Users/williangrillo/.nuget/packages/microsoft.extensions.logging.configuration/8.0.0/microsoft.extensions.logging.configuration.8.0.0.nupkg.sha512",
     "/Users/williangrillo/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
     "/Users/williangrillo/.nuget/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "/Users/williangrillo/.nuget/packages/microsoft.extensions.primitives/9.0.6/microsoft.extensions.primitives.9.0.6.nupkg.sha512",
     "/Users/williangrillo/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
     "/Users/williangrillo/.nuget/packages/refit/8.0.0/refit.8.0.0.nupkg.sha512",
     "/Users/williangrillo/.nuget/packages/refit.httpclientfactory/8.0.0/refit.httpclientfactory.8.0.0.nupkg.sha512",
+    "/Users/williangrillo/.nuget/packages/seq.extensions.logging/8.0.0/seq.extensions.logging.8.0.0.nupkg.sha512",
     "/Users/williangrillo/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []

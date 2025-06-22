@@ -271,6 +271,32 @@
           "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
+      "Microsoft.Extensions.Logging.Configuration/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Options/8.0.2": {
         "type": "package",
         "dependencies": {
@@ -373,6 +399,24 @@
         },
         "runtime": {
           "lib/net8.0/Refit.HttpClientFactory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Seq.Extensions.Logging/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Configuration": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Seq.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Seq.Extensions.Logging.dll": {
             "related": ".xml"
           }
         }
@@ -828,6 +872,35 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Logging.Configuration/8.0.0": {
+      "sha512": "ixXXV0G/12g6MXK65TLngYN9V5hQQRuV+fZi882WIoVJT7h5JvoYoxTEwCgdqwLjSneqh1O+66gM8sMr9z/rsQ==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.configuration/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Logging.Configuration.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Configuration.targets",
+        "lib/net462/Microsoft.Extensions.Logging.Configuration.dll",
+        "lib/net462/Microsoft.Extensions.Logging.Configuration.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.Configuration.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.Configuration.xml",
+        "lib/net7.0/Microsoft.Extensions.Logging.Configuration.dll",
+        "lib/net7.0/Microsoft.Extensions.Logging.Configuration.xml",
+        "lib/net8.0/Microsoft.Extensions.Logging.Configuration.dll",
+        "lib/net8.0/Microsoft.Extensions.Logging.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.xml",
+        "microsoft.extensions.logging.configuration.8.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.configuration.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.Options/8.0.2": {
       "sha512": "dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
       "type": "package",
@@ -997,6 +1070,25 @@
         "refit_logo.png"
       ]
     },
+    "Seq.Extensions.Logging/8.0.0": {
+      "sha512": "5dOGhk3UInnEvrxwTr3P+WV8N+ttwr69ky+fEVhgIHezl2Q1BvZ3bNMLH6huj5BDeAZhcn4td5pefaze5ilkCg==",
+      "type": "package",
+      "path": "seq.extensions.logging/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/Seq.Extensions.Logging.dll",
+        "lib/net6.0/Seq.Extensions.Logging.xml",
+        "lib/net8.0/Seq.Extensions.Logging.dll",
+        "lib/net8.0/Seq.Extensions.Logging.xml",
+        "lib/netstandard2.0/Seq.Extensions.Logging.dll",
+        "lib/netstandard2.0/Seq.Extensions.Logging.xml",
+        "seq.extensions.logging.8.0.0.nupkg.sha512",
+        "seq.extensions.logging.nuspec"
+      ]
+    },
     "System.Text.Encodings.Web/4.5.0": {
       "sha512": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
       "type": "package",
@@ -1031,7 +1123,8 @@
     "net9.0": [
       "Infra >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.1",
-      "Microsoft.Extensions.DependencyInjection >= 9.0.6"
+      "Microsoft.Extensions.DependencyInjection >= 9.0.6",
+      "Seq.Extensions.Logging >= 8.0.0"
     ]
   },
   "packageFolders": {
@@ -1088,6 +1181,10 @@
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[9.0.6, )"
+          },
+          "Seq.Extensions.Logging": {
+            "target": "Package",
+            "version": "[8.0.0, )"
           }
         },
         "imports": [

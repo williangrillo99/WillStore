@@ -12,7 +12,7 @@ public sealed class CheckoutController : ControllerBase
     private readonly IPedidoRepository _pedidoRepository;
 
     public CheckoutController(
-        ILogger<CheckoutController> logger, 
+        ILogger<CheckoutController> logger,
         IUsuarioRepository usuarioRepository,
         IPedidoRepository pedidoRepository)
     {
@@ -24,8 +24,12 @@ public sealed class CheckoutController : ControllerBase
     [HttpGet(Name = "Checkout")]
     public async Task<IActionResult> Checkout()
     {
-        var pedido = await _pedidoRepository.RecuperarPedidoPorIdAsync(1);
-        var usuario = await _usuarioRepository.RecuperarUsuariosPorIdAsync(1);
+        var pedidoId = await _pedidoRepository.RecuperarPedidoPorIdAsync(Random.Shared.Next(1, 100));
+        var usuarioId = await _usuarioRepository.RecuperarUsuariosPorIdAsync(Random.Shared.Next(1, 100));
+
+        _logger.LogInformation(
+            "{Service} - " + "Usuario:{usuarioId}" + "Pedido:{pedidoId} - " + "Encontrados com Sucesso",
+            "CheckoutService", usuarioId, pedidoId);
 
         return Ok();
     }

@@ -13,3 +13,4 @@
 /Users/williangrillo/Desktop/github/WillStore/UsuariosService/Infra/obj/Debug/net9.0/refint/Infra.dll
 /Users/williangrillo/Desktop/github/WillStore/UsuariosService/Infra/obj/Debug/net9.0/Infra.pdb
 /Users/williangrillo/Desktop/github/WillStore/UsuariosService/Infra/obj/Debug/net9.0/ref/Infra.dll
+/Users/williangrillo/Desktop/github/WillStore/UsuariosService/Infra/obj/Debug/net9.0/Infra.sourcelink.json

@@ -31,3 +31,6 @@
 /Users/williangrillo/Desktop/github/WillStore/PedidosService/Api/obj/Debug/net9.0/Api.pdb
 /Users/williangrillo/Desktop/github/WillStore/PedidosService/Api/obj/Debug/net9.0/Api.genruntimeconfig.cache
 /Users/williangrillo/Desktop/github/WillStore/PedidosService/Api/obj/Debug/net9.0/ref/Api.dll
+/Users/williangrillo/Desktop/github/WillStore/PedidosService/Api/obj/Debug/net9.0/Api.sourcelink.json
+/Users/williangrillo/Desktop/github/WillStore/PedidosService/Api/bin/Debug/net9.0/Seq.Extensions.Logging.dll
+/Users/williangrillo/Desktop/github/WillStore/PedidosService/Api/bin/Debug/net9.0/CorrelationId.dll

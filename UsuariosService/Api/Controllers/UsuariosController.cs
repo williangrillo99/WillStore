@@ -16,12 +16,8 @@ public class UsuariosController : ControllerBase
     [HttpGet("Recuperar/{usuarioId}")]
     public ActionResult<string> Get(string usuarioId)
     {
-        _logger.LogInformation(
-            "UsuariosService: {class}-{method}-{usuarioId}",
-            nameof(UsuariosController),
-            nameof(Get),
-            usuarioId);
-        
+        // _logger.LogInformation("{service} - Usuario Solicitado: {usuarioId}", "UsuariosService", usuarioId);
+
         return Ok(usuarioId);
     }
 }

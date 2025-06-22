@@ -15,6 +15,7 @@
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/bin/Debug/net9.0/Microsoft.OpenApi.dll
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/bin/Debug/net9.0/Refit.dll
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/bin/Debug/net9.0/Refit.HttpClientFactory.dll
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/bin/Debug/net9.0/Seq.Extensions.Logging.dll
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/bin/Debug/net9.0/Domain.dll
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/bin/Debug/net9.0/Infra.dll
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/bin/Debug/net9.0/Infra.pdb
@@ -26,6 +27,7 @@
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/obj/Debug/net9.0/Api.csproj.CoreCompileInputs.cache
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/obj/Debug/net9.0/Api.MvcApplicationPartsAssemblyInfo.cs
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/obj/Debug/net9.0/Api.MvcApplicationPartsAssemblyInfo.cache
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/obj/Debug/net9.0/Api.sourcelink.json
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/obj/Debug/net9.0/scopedcss/bundle/Api.styles.css
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/obj/Debug/net9.0/staticwebassets.build.json
 /Users/williangrillo/Desktop/github/WillStore/CheckoutService/Api/obj/Debug/net9.0/staticwebassets.development.json

@@ -15,3 +15,4 @@
 /Users/williangrillo/Desktop/github/WillStore/UsuariosService/Application/obj/Debug/net9.0/refint/Application.dll
 /Users/williangrillo/Desktop/github/WillStore/UsuariosService/Application/obj/Debug/net9.0/Application.pdb
 /Users/williangrillo/Desktop/github/WillStore/UsuariosService/Application/obj/Debug/net9.0/ref/Application.dll
+/Users/williangrillo/Desktop/github/WillStore/UsuariosService/Application/obj/Debug/net9.0/Application.sourcelink.json
