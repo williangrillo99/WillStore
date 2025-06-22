@@ -8,7 +8,6 @@ public static class CorrelationIdExtensions
 
     public static IServiceCollection AddCorrelationIdConfiguration(this IServiceCollection services)
     {
-        
         services.AddDefaultCorrelationId(options =>
         {
             options.EnforceHeader = false;

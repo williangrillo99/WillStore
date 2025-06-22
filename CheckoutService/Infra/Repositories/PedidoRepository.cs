@@ -4,23 +4,16 @@ using Microsoft.Extensions.Logging;
 
 namespace Infra.Repositories;
 
-public sealed class PedidoRepository(IPedidosServiceApi pedidosServiceApi, ILogger<PedidoRepository> logger) : IPedidoRepository
+public sealed class PedidoRepository(IPedidosServiceApi pedidosServiceApi, ILogger<PedidoRepository> logger)
+    : IPedidoRepository
 {
     public async Task<int> RecuperarPedidoPorIdAsync(int id)
     {
-        logger.LogInformation("{Service} Chamando PedidoApi  {Id} - {Class} - {Method}", 
-            "CheckoutService",
-            id, 
-            nameof(PedidoRepository),
-            nameof(RecuperarPedidoPorIdAsync));
-        
+        logger.LogInformation("{Service} - Chamando PedidoApi", "CheckoutService");
+
         var respose = await pedidosServiceApi.ObterPedidoPorIdAsync(id.ToString());
 
-        logger.LogInformation("{Service} Resposta PedidoApi - Sucesso - Id:{Id} - {Class} - {Method}", 
-            "CheckoutService",
-            id, 
-            nameof(PedidoRepository),
-            nameof(RecuperarPedidoPorIdAsync));
+        logger.LogInformation("{Service} - Resposta PedidoApi - Sucesso", "CheckoutService");
 
         return respose;
     }

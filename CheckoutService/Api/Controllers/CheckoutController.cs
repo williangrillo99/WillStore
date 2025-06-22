@@ -24,11 +24,15 @@ public sealed class CheckoutController : ControllerBase
     [HttpGet(Name = "Checkout")]
     public async Task<IActionResult> Checkout()
     {
+        _logger.LogInformation(
+            "{Service} - Requisicao Recebida!",
+            "CheckoutService");
+        
         var pedidoId = await _pedidoRepository.RecuperarPedidoPorIdAsync(Random.Shared.Next(1, 100));
         var usuarioId = await _usuarioRepository.RecuperarUsuariosPorIdAsync(Random.Shared.Next(1, 100));
 
         _logger.LogInformation(
-            "{Service} - " + "Usuario:{usuarioId}" + "Pedido:{pedidoId} - " + "Encontrados com Sucesso",
+            "{Service} - " + "Retorno: UsuarioId: {usuarioId} - PedidoId: {pedidoId}",
             "CheckoutService", usuarioId, pedidoId);
 
         return Ok();
