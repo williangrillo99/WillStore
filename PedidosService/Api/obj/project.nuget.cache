@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wt2IMOrwFMY=",
+  "success": true,
+  "projectFilePath": "/Users/williangrillo/Desktop/github/WillStore/PedidosService/Api/Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/williangrillo/.nuget/packages/microsoft.aspnetcore.openapi/9.0.1/microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "/Users/williangrillo/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

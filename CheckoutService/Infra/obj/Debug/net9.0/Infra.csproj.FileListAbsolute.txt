@@ -1,0 +1,15 @@
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/bin/Debug/net9.0/Infra.deps.json
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/bin/Debug/net9.0/Infra.dll
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/bin/Debug/net9.0/Infra.pdb
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/bin/Debug/net9.0/Domain.dll
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/bin/Debug/net9.0/Domain.pdb
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.csproj.AssemblyReference.cache
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.GeneratedMSBuildEditorConfig.editorconfig
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.AssemblyInfoInputs.cache
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.AssemblyInfo.cs
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.csproj.CoreCompileInputs.cache
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.csproj.Up2Date
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.dll
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/refint/Infra.dll
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/Infra.pdb
+/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/obj/Debug/net9.0/ref/Infra.dll
