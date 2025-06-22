@@ -434,6 +434,19 @@
           }
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -1108,6 +1121,11 @@
         "version.txt"
       ]
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -1121,6 +1139,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Application >= 1.0.0",
       "Infra >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.1",
       "Microsoft.Extensions.DependencyInjection >= 9.0.6",
@@ -1152,6 +1171,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Application/Application.csproj": {
+              "projectPath": "/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Application/Application.csproj"
+            },
             "/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/Infra.csproj": {
               "projectPath": "/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Infra/Infra.csproj"
             }

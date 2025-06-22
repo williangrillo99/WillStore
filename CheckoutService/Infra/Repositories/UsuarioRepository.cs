@@ -9,7 +9,7 @@ public sealed class UsuarioRepository(IUsuariosServiceApi usuariosServiceApi, IL
 {
     public async Task<int> RecuperarUsuariosPorIdAsync(int id)
     {
-        logger.LogInformation("{Service} - Chamando UsuarioApi", "CheckoutService");
+        logger.LogInformation("{Service} - Chamando UsuarioApi - UsuarioId: {UsuarioId}", "CheckoutService", id);
 
         var usuario = await usuariosServiceApi.ObterUsuarioAsync(id.ToString());
 

@@ -9,7 +9,7 @@ public sealed class PedidoRepository(IPedidosServiceApi pedidosServiceApi, ILogg
 {
     public async Task<int> RecuperarPedidoPorIdAsync(int id)
     {
-        logger.LogInformation("{Service} - Chamando PedidoApi", "CheckoutService");
+        logger.LogInformation("{Service} - Chamando PedidoApi - PedidoId: {PedidoId}", "CheckoutService", id);
 
         var respose = await pedidosServiceApi.ObterPedidoPorIdAsync(id.ToString());
 

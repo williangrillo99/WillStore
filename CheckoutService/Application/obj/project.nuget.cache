@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "c+fFhqI0Q1I=",
+  "dgSpecHash": "bwfIHYxkj4Q=",
   "success": true,
   "projectFilePath": "/Users/williangrillo/Desktop/github/WillStore/CheckoutService/Application/Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/williangrillo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.6/microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512"
+  ],
   "logs": []
 }
